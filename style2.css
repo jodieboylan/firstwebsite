@@ -1,0 +1,42 @@
+body{
+	background: #ffe6ff;
+	color: black;
+}
+
+p{
+	color:gray;
+	font-size: 20px;
+}
+
+/* span used to change words within span bracket */
+span{
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 2px 2px gray;
+}
+
+/* changes the hover on span words*/
+span:hover {
+	background-color: blue;
+	cursor: grabbing;
+}
+
+/* . for class, used more than once */
+.cyan{
+	color: cyan;
+}
+
+.bold{
+	text-weight: bold;
+	text-decoration: underline;
+}
+
+.italic{
+	font-style: italic;	
+}
+
+/* # for ID used only once */
+#yellow{
+	color: yellow;
+}
